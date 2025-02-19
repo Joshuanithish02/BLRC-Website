@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya&family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sree+Krushnadevaraya&family=Tektur:wght@400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 30px 10px;
+
+}
+.head-name{
+        font-size:25px;
+         color:#2472b2;
+        font-weight:bold;
+         margin-left:10px;
+        background:none;
+        margin-right:20px;
+        margin-top:5px;
+        font-size: 30px;
+        text-decoration: none;
+}
+.nav-name a{
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 20px;
+    color: white;
+
+}
+.nav-name li{
+display: inline-block;
+color: black;
+
+}
+.nav-name li a:hover{
+           color:#e7a84a;
+
+}
+                                                               /*ABOUT*/
+.content{
+    padding-top: 100px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+}
+.content-word{
+    font-family: "Poppins", serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+    color: aliceblue;
+}
+.content-para{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:30px;
+    color: aliceblue;
+}
+.content-para1{
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color: aliceblue;
+}
+.content-img2{
+    width: 50%;
+    height: 50%;
+    border-radius: 0px 50px 50px 00px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
